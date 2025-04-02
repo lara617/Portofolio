@@ -1,0 +1,25 @@
+.portfolio-container {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+}
+
+.portfolio-image {
+    width: 96px; /* Aumente o tamanho da largura */
+    height: 96px; /* Aumente o tamanho da altura */
+    border-radius: 50%; /* Mantém a imagem redonda */
+    margin-right: 16px;
+}
+
+.portfolio-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.portfolio-subtitle {
+    font-size: 16px;
+}
+
+.portfolio-description {
+    font-size: 14px;
+}
