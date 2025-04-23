@@ -28,13 +28,20 @@ const Certificacao = () => {
                 style={{ marginBottom: '20px' }}
             ></div>
 
-            
-
             <div 
                 data-iframe-width="250" 
                 data-iframe-height="450" 
                 data-share-badge-id="fd85efb8-ef6a-405e-addd-340d640388a7" 
                 data-share-badge-host="https://www.credly.com"
+                style={{ marginBottom: '20px' }}
+            ></div>
+
+            <div 
+                data-iframe-width="250" 
+                data-iframe-height="450" 
+                data-share-badge-id="e539da65-db28-4686-882c-3d3963166d77" 
+                data-share-badge-host="https://www.credly.com"
+                style={{ marginBottom: '20px' }}
             ></div>
             
             <div 
@@ -52,6 +59,7 @@ const Certificacao = () => {
                 data-share-badge-host="https://www.credly.com"
                 style={{ marginBottom: '20px' }}
             ></div>
+
         </div>
     );
 };
