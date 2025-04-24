@@ -36,6 +36,22 @@ const Certificacao = () => {
                 style={{ marginBottom: '20px' }}
             ></div>
 
+<div 
+                data-iframe-width="250" 
+                data-iframe-height="450" 
+                data-share-badge-id="187a5dec-a111-4580-9b7b-ab98e1f4204c" 
+                data-share-badge-host="https://www.credly.com"
+                style={{ marginBottom: '20px' }}
+            ></div>
+
+            <div 
+                data-iframe-width="250" 
+                data-iframe-height="450" 
+                data-share-badge-id="7629369d-8bcd-4950-b051-ed209897d71e" 
+                data-share-badge-host="https://www.credly.com"
+                style={{ marginBottom: '20px' }}
+            ></div>
+
             <div 
                 data-iframe-width="250" 
                 data-iframe-height="450" 
