@@ -1,19 +1,47 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimentos padrão */
 }
 
 header {
     background: #f6a7ff;
     color: #fff;
-    padding: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Garante que o Header fique acima de outros elementos */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0; /* Remove margens padrão */
+    display: flex; /* Alinha os itens horizontalmente */
+    justify-content: flex-end; /* Mantém os itens alinhados à direita */
+    margin-right: 50px; /* Move as palavras mais para a esquerda */
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 15px;
+    margin-left: 25px; /* Espaçamento entre os itens */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #52244b; /* Define a cor do texto dos links */
+    font-weight: bold; /* Deixa o texto em negrito */
+    transition: color 0.3s; /* Adiciona uma transição suave */
+}
+
+nav ul li a:hover {
+    color: #922c84; /* Altera a cor ao passar o mouse */
+}
+
+section {
+    padding-top: 80px; /* Adiciona espaço para evitar sobreposição com o Header */
 }

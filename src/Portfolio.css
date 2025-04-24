@@ -2,12 +2,13 @@
     display: flex;
     align-items: center;
     padding: 16px;
+    margin-top: 80px; /* Adiciona espaço para evitar sobreposição com o Header */
 }
 
 .portfolio-image {
-    width: 96px; /* Aumente o tamanho da largura */
-    height: 96px; /* Aumente o tamanho da altura */
-    border-radius: 50%; /* Mantém a imagem redonda */
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
     margin-right: 16px;
 }
 
